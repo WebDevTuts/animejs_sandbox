@@ -22,3 +22,16 @@ anime({
     delay: 1000
   }
 });
+
+anime({
+  targets: 'div.box.green',
+  translateY: [
+    { value: 200, duration: 500, delay: 2000 },
+    { value: 0, duration: 800 }
+  ],
+  rotate: {
+    value: '1turn',
+    easing: 'easeInOutSine',
+    delay: 2000
+  }
+});
