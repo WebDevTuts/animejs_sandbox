@@ -64,3 +64,4 @@ var playPause = anime({
 });
 
 document.querySelector("#boxes .play").onclick = playPause.play;
+document.querySelector("#boxes .pause").onclick = playPause.pause;
