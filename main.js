@@ -60,7 +60,8 @@ var playPause = anime({
     easing: 'easeInOutSine'
   },
   delay: function(el, i, l) { return i * 1000; },
-  autoplay: false
+  autoplay: false,
+  loop: true
 });
 
 document.querySelector("#boxes .play").onclick = playPause.play;
