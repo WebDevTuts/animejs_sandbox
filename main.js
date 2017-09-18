@@ -35,3 +35,16 @@ anime({
     delay: 2000
   }
 });
+
+anime({
+  targets: 'div.box.yellow',
+  translateY: [
+    { value: 200, duration: 500, delay: 3000 },
+    { value: 0, duration: 800 }
+  ],
+  rotate: {
+    value: '1turn',
+    easing: 'easeInOutSine',
+    delay: 3000
+  }
+});
